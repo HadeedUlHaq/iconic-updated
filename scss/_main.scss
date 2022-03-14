@@ -1,0 +1,13 @@
+// main
+#main-section{
+  display: grid;
+  grid-template-columns: 65% auto;
+  grid-gap: 20px;
+  padding: 10px 0 10px 0;
+  border: 1px solid;
+  border-image: linear-gradient(to right,#fffffF, #cccccc, #ffffff) 1%;
+  p {
+    font-size: 13px;
+    color: #353434;
+  }
+}

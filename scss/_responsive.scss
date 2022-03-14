@@ -1,0 +1,137 @@
+// responsive
+@media screen and (max-width: 1200px) {
+  .taglinesec .btnsec a {
+    width: 100%;
+    height: 53px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .relatedproduct .articelsection {
+    grid-template-columns: 1fr 1fr;
+  }
+  section.content article p {
+    line-height: 140%;
+    font-size: 12px;
+  }
+  section.content article h3 {
+    font-size: 17px;
+  }
+  #main-section {
+    grid-template-columns: 1fr;
+  }
+  .aside-section .asidecontnt .asidetxt h3 {
+    font-size: 13px;
+  }
+  .aside-section .asidecontnt .asidetxt p {
+    font-size: 11px;
+  }
+  .taglinesec h2 {
+    font-size: 19px;
+    text-align: center;
+  }
+  .taglinesec .btnsec a {
+    width: 100%;
+    height: 50px;
+  }
+  .herosec .herowrap .herotxt h1 {
+    font-size: 18px;
+  }
+  .herosec .herowrap .herotxt p {
+    padding: 3px 0px;
+    font-size: 12px;
+  }
+  .herosec .herowrap .heroimg img {
+    transform: translateY(23px);
+  }
+  nav {
+    ul {
+      display: none;
+    }
+  }
+  .menubar {
+    display: grid;
+  }
+  #footer-section .footerwrap {
+    grid-template-columns: 100%;
+    line-height: 20px;
+    text-align: center;
+    a{
+      font-size: 11px;
+    }
+  }
+  #footer-section span {
+    justify-content: center;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .herosec .herowrap {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 15px 0px;
+  }
+  .header .logo img {
+    padding: 24px;
+  }
+  .relatedproduct .articelsection {
+    grid-template-columns: 1fr;
+  }
+  .herosec .herowrap .heroimg img {
+    transform: translateY(0px);
+  }
+  section.relatedproduct .imgsec {
+    width: 90%;
+    height: 250px;
+  }
+  section.relatedproduct img {
+    object-fit: cover;
+  }
+  main {
+    grid-template-columns: 100%;
+  }
+  .taglinesec {
+    gap: 20px;
+    grid-template-columns: 100%;
+  }
+  .header .logo {
+    width: 154px;
+    transform: translateY(0px);
+    background: transparent;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+// min width
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}

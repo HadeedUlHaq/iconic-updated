@@ -1,0 +1,33 @@
+// footer
+#footer-section {
+  border: 2px solid #c65709;
+  background: linear-gradient(to bottom, #fca61f, #e35901);
+  width: 100%;
+  padding: 10px 0px;
+  margin-top: 50px;
+  .footerwrap {
+    display: grid;
+    grid-template-columns: 65% auto;
+  }
+  img {
+    width: 200px;
+  }
+  ul {
+    display: inline-block;
+    a {
+      padding: 10px 4px;
+      display: inline-block;
+      color: #fff;
+      font-weight: 700;
+      font-size: 14px;
+    }
+  }
+  span {
+    opacity: 0.8;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #fff;
+  }
+}

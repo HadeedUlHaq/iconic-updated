@@ -1,0 +1,53 @@
+// aside
+.aside-section {
+  border: 1px solid #cecece;
+  .asidhead {
+    background: linear-gradient(to bottom, #ffffff, #e2e2e2);
+    h2 {
+      font-size: 18px;
+      color: #343434;
+      padding: 15px;
+      font-weight: 500;
+    }
+  }
+  .asidecontnt {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-gap: 10px;
+    padding: 10px;
+    border-top: 1px solid #efefef;
+    .asideimgsec {
+      border: 1px solid #cecece;
+      height: 70px;
+      img {
+        height: 100%;
+        object-fit: cover;
+        padding: 5px;
+      }
+    }
+    .asidetxt {
+      margin-top: 10px;
+      h3 {
+        color: #f14949;
+        font-weight: 400;
+        font-size: 16px;
+      }
+      p {
+        color: #666666;
+        font-size: 12px;
+        padding: 3px 0px;
+      }
+    }
+  }
+  .asidewrap {
+    border-top: 0.05em solid #878787;
+    margin-top: 10px;
+    padding-top: 10px;
+    h5 {
+      color: #0481c2;
+      font-weight: 400;
+      font-size: 16px;
+      padding: 10px 0px;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+// section
+.relatedproduct {
+  margin: 35px 0px;
+  border: 1px solid #cccccc;
+  background: linear-gradient(to bottom, #ffffff, #e2e2e2);
+  .articelsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+  }
+  .imgsec {
+    position: relative;
+    height: 182px;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: auto;
+    &::before {
+      box-shadow: inset 3px -3px 8px #000000;
+      content: "";
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      z-index: 8;
+    }
+  }
+  .title {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 35px;
+    }
+    h2 {
+      font-size: 18px;
+      color: #343434;
+    }
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .boradius {
+    border-radius: 10px;
+    height: 100%;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+    }
+  }
+  article {
+    border-right: 1px solid ;
+    padding: 10px;
+    border-image: 
+    linear-gradient(to bottom,  #cccccc, #ffffff) 1 100%
+  }
+  figure{
+    padding: 10px;
+  }
+}
+section.content {
+  padding: 0px 20px 0px 0px;
+  h2 {
+    font-weight: 500;
+    color: #2e2e2e;
+    text-transform: uppercase;
+  }
+  article {
+    margin-top: 25px;
+    h3 {
+      color: #f14949;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    p {
+      color: #666666;
+      line-height: 150%;
+      font-size: 15px;
+    }
+  }
+}
+.taglinediv {
+  background: linear-gradient(to top, #ffffff, #f3f3f3);
+  padding: 40px 0px;
+}
+.taglinesec {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 54% auto;
+  h2 {
+    font-size: 26px;
+    padding: 0px 10px 0px 0px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Georgia, sans-serif;
+    color: #3d3d3d;
+  }
+  .btnsec {
+    display: flex;
+    gap: 20px;
+    padding: 4px 0px;
+    justify-content: end;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #c65709;
+      border-radius: 4px;
+      width: 240px;
+      height: 55px;
+      color: #fff;
+      font-weight: 600;
+      background: linear-gradient(to bottom, #fca61f, #e35901);
+      transition: 0.3s;
+      &:hover {
+        background: linear-gradient(to bottom, #e35901, #fca61f);
+        transition: 0.3s;
+      }
+    }
+  }
+}
